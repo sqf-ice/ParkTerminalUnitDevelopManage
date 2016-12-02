@@ -1,0 +1,17 @@
+#Wed Nov 23 10:50:13 CST 2016
+eclipse.preferences.version=1
+encoding//kcht_complex_etc/biz/AbstractComplexEtcBiz.py=utf-8
+encoding//kcht_complex_etc/biz/ComplexEtcEntryBiz.py=utf-8
+encoding//shhicparking/infrastructure/AbstractInfrastructures.py=utf-8
+encoding//shhicparking/infrastructure/__init__.py=utf-8
+encoding//shhicparking/infrastructure/_plugin_tjairport_adapter/LaneIODevice.py=utf-8
+encoding//shhicparking/infrastructure/pluginHelper.py=utf-8
+encoding//shhicparking/infrastructure/plugin_mock_slot/MockParkSlot.py=utf-8
+encoding//shhicparking/infrastructure/plugin_mock_slot/__init__.py=utf-8
+encoding//shhicparking/server/__init__.py=utf-8
+encoding//slot_manage/__init__.py=utf-8
+encoding//slot_manage/biz/ParkSlotBiz.py=utf-8
+encoding//slot_manage/infras/__init__.py=utf-8
+encoding//slot_manage/ui/SlotForm.py=utf-8
+encoding/testEtcEntryMain.py=utf-8
+encoding/testSlotManageMain.py=utf-8

@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<parkingInfrasGroups version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="meta-data/InfrastructureConfig.xsd">
+	
+	
+	
+
+	
+	
+
+	<infrasGroup id="ETC入口" passStrategy="forceWhiteList" pathType="complex_etc_entry" relatedEntryIds="" uiType="common">
+		<infras id="入口RSU" infrasType="聚力RSU集成接口设备" use="true">
+			<property name="广场号">
+				55
+			</property>
+			<property name="站编号">
+				44
+			</property>
+			<property name="路公司编号">
+				22
+			</property>
+			<property name="业主编号">
+				33
+			</property>
+			<property name="车道编号">
+				66
+			</property>
+			<property name="路网编号">
+				11
+			</property>
+			<property name="设备串口号">
+				COM1
+			</property>
+		</infras>
+		<infras id="入口摄像头" infrasType="停简单摄像头" use="false">
+			<property name="密码">
+				admin
+			</property>
+			<property name="用户名">
+				admin
+			</property>
+			<property name="VLC驱动路径">
+				../vlc
+			</property>
+			<property name="端口号">
+				9000
+			</property>
+			<property name="设备IP">
+				192.168.10.22
+			</property>
+		</infras>
+		<infras id="车道IO" infrasType="车道IO设备" use="true">
+			<property name="道闸抬起控制端子">
+				2
+			</property>
+			<property name="触发线圈输入端子">
+				1
+			</property>
+			<property name="道闸落下控制端子">
+				3
+			</property>
+			<property name="雨棚灯控制端子">
+				1
+			</property>
+			<property name="存在线圈输入端子">
+				2
+			</property>
+			<property name="停止线圈输入端子">
+				3
+			</property>
+		</infras>
+		<infras id="入口LED" infrasType="车道LED显示屏一体机" use="true">
+			<property name="设备串口号">
+				COM2
+			</property>
+			<property name="空闲消息">
+				欢迎光临
+			</property>
+		</infras>
+	</infrasGroup>
+</parkingInfrasGroups>

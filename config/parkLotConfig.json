@@ -1,0 +1,10 @@
+{
+	"baseMapFile":"config/mockSlotMap.png",
+	"width":663,"height":526,
+	"slots":[
+		{"parkingLotId":"A01","area":"A区","left":130,"top":30},
+		{"parkingLotId":"A02","area":"A区","left":130,"top":110},
+		{"parkingLotId":"B01","area":"B区","left":450,"top":30},
+		{"parkingLotId":"B02","area":"B区","left":450,"top":110}
+	]
+}

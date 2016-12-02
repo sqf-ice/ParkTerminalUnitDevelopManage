@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="etc">
+    <file>rsu-fail.png</file>
+    <file>rsu-success.png</file>
+    <file>etc-green.png</file>
+    <file>etc-yellow.png</file>
+    <file>greenalarmlight.png</file>
+    <file>greenarrow.png</file>
+    <file>nopass.png</file>
+    <file>redalarmlight.gif</file>
+    <file>rsu.png</file>
+  </qresource>
+</RCC>
