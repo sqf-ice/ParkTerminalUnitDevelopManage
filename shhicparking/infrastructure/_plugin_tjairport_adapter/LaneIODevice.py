@@ -34,8 +34,8 @@ class LaneIODevice(AbstractInfrastructure, CETC_GroundCoils, CETC_CanopyLights, 
             time.sleep(2)
             if not self.initF75111:
                 print "F75111({getAddr})初始化失败!".format(getAddr=self.dllIO.F75111_GetAddress())
-        except:
-            raise Exception("F75111.dll异常!")
+        except Exception:
+            print "F75111.dll异常!"
 
     def hasVehicle(self, coilNum):
         "地感上是否有车，入参是地感编号1-3"  # 有车返回True，没车返回False
@@ -57,8 +57,8 @@ class LaneIODevice(AbstractInfrastructure, CETC_GroundCoils, CETC_CanopyLights, 
                 time.sleep(timeWnd)
                 front = self.hasVehicle(coilNum)
                 return True if (back is False and front is True) else False
-            except:
-                raise Exception("LaneIODevice.isVehicleComes Exception")
+            except Exception:
+                print "LaneIODevice.isVehicleComes Exception"
 
     def isVehicleLeaves(self, coilNum, timeWnd=2):
         "是否有车离开地感（下跳沿）"
@@ -69,16 +69,16 @@ class LaneIODevice(AbstractInfrastructure, CETC_GroundCoils, CETC_CanopyLights, 
                 time.sleep(timeWnd)
                 front = self.hasVehicle(coilNum)
                 return True if (back is True and front is False) else False
-            except:
-                raise Exception("LaneIODevice.isVehicleLeaves Exception")
+            except Exception:
+                print "LaneIODevice.isVehicleLeaves Exception"
 
     def notifyNormal(self):
         "通知雨棚灯显示正常"
         if self.initF75111:
             try:
                 self.dllIO.F75111_SetDigitalOutput(self.COIL_OUTPUT_VALUES['NORMAL'])
-            except:
-                raise Exception("LaneIODevice.notifyNormal Exception")
+            except Exception:
+                print "LaneIODevice.notifyNormal Exception"
             finally:
                 time.sleep(0.5)
 
@@ -87,8 +87,8 @@ class LaneIODevice(AbstractInfrastructure, CETC_GroundCoils, CETC_CanopyLights, 
         if self.initF75111:
             try:
                 self.dllIO.F75111_SetDigitalOutput(self.COIL_OUTPUT_VALUES['WRONG'])
-            except:
-                raise Exception("LaneIODevice.notifyWrong Exception")
+            except Exception:
+                print "LaneIODevice.notifyWrong Exception"
             finally:
                 time.sleep(0.5)
 
@@ -97,21 +97,18 @@ class LaneIODevice(AbstractInfrastructure, CETC_GroundCoils, CETC_CanopyLights, 
         if self.initF75111:
             try:
                 self.dllIO.F75111_SetDigitalOutput(self.COIL_OUTPUT_VALUES['LIFT_RAIL'])
-            except:
-                raise Exception("LaneIODevice.liftTheRail Exception")
-            finally:
-                time.sleep(3)
+            except Exception:
+                print "LaneIODevice.liftTheRail Exception"
+            
 
     def dropTheRail(self):
         '''落杆'''
         if self.initF75111:
             try:
                 self.dllIO.F75111_SetDigitalOutput(self.COIL_OUTPUT_VALUES['DROP_RAIL'])
-            except:
-                raise Exception("LaneIODevice.dropTheRail Exception")
-            finally:
-                time.sleep(3)
-
+            except Exception:
+                print "LaneIODevice.dropTheRail Exception"
+            
 
 """
 if __name__ == "__main__":

@@ -1,5 +1,8 @@
 <RCC>
   <qresource prefix="etc">
+    <file>ic-fail.png</file>
+    <file>ic-success.png</file>
+    <file>ic.png</file>
     <file>rsu-fail.png</file>
     <file>rsu-success.png</file>
     <file>etc-green.png</file>

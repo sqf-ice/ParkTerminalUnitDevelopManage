@@ -8,7 +8,11 @@ from ctypes import windll,c_char,c_int,byref
 from PyQt4 import QtCore, QtGui
 from shhicparking.infrastructure.AbstractInfrastructures import *
 
-class TjdCamera(AbstractInfrastructure,Camera):
+G_BSIM_DLL = windll.LoadLibrary("driver/libHKWrap.dll")
+G_BSIM_DLL.initSDK()
+
+
+class TjdCamera(AbstractInfrastructure,Camera,PhotoCapture,PlatePhotoParser):
     class VLCWidget(QtGui.QWidget):
         '''VLC播放Widget，其实真正的视频是播放在它的parent中'''
         vlcPath = None  #VLC路径

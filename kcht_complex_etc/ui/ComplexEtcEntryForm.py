@@ -15,8 +15,11 @@ class ComplexEtcEntryForm(AbstractComplexEtcChannelFrom):
         AbstractComplexEtcChannelFrom.__init__(self, parentForm, infrasGroupId,uiType="common")
         self.tollFee.hide()
         self.tollFeeLabel.hide()
+        self.manualTollBtn.hide()
         self.infoGroup.setTitle(u"车辆入场")
         self.tradeTimeLabel.setText(u"入场时间")
+        self.icLabel.hide() #入口不需要刷卡机
+        self.icTitleLabel.hide()
 
     def notifyVehicleOnCoilSLOT(self,param):
         AbstractComplexEtcChannelFrom.notifyVehicleOnCoilSLOT(self, param)
@@ -30,8 +33,8 @@ class ComplexEtcEntryForm(AbstractComplexEtcChannelFrom):
     def notifyVehicleInfoSLOT(self,param):
         AbstractComplexEtcChannelFrom.notifyVehicleInfoSLOT(self,param)
         
-        
-        
+    def notifyVehicleEntrySLOT(self,param):
+        AbstractComplexEtcChannelFrom.notifyVehicleEntrySLOT(self,param)
         
         
         

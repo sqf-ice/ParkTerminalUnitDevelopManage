@@ -2,9 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f57e216-6829-4684-8e10-381d17b2636e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ParkTerminalUnitDevelopManage-20161212.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/ic-fail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/ic-success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/ic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/driver/KchtEtcParkClientHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/driver/rsuTradeDataStructs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/ManualTollDlg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/manualTollDlg.ui" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/KchtCpuCardIssuerTrader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/entry-InfrastructureConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/issuerdevice/ReaderDriver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/issuerdevice/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/ui/rsu-fail.png" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/rsu-fail.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/ui/rsu-success.png" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/rsu-success.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/biz/AbstractComplexEtcBiz.py" afterPath="$PROJECT_DIR$/kcht_complex_etc/biz/AbstractComplexEtcBiz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/biz/ComplexEtcEntryBiz.py" afterPath="$PROJECT_DIR$/kcht_complex_etc/biz/ComplexEtcEntryBiz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/biz/ComplexEtcExitBiz.py" afterPath="$PROJECT_DIR$/kcht_complex_etc/biz/ComplexEtcExitBiz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/infras/__init__.py" afterPath="$PROJECT_DIR$/kcht_complex_etc/infras/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/ui/AbstractComplexEtcChannelForm.py" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/AbstractComplexEtcChannelForm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/ui/ComplexEtcEntryForm.py" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/ComplexEtcEntryForm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/ui/ComplexEtcExitForm.py" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/ComplexEtcExitForm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/ui/complexEtcChannelForm.ui" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/complexEtcChannelForm.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kcht_complex_etc/ui/kcht_clpx_etc_res.qrc" afterPath="$PROJECT_DIR$/kcht_complex_etc/ui/kcht_clpx_etc_res.qrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/InfrastructureConfig.xml" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/InfrastructureConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/JuliLaneRsuIntegratedIntf.py" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/JuliLaneRsuIntegratedIntf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneIODevice.py" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneIODevice.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneLedIntegratedDevice.py" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneLedIntegratedDevice.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/TjdCamera.py" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/TjdCamera.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/__init__.py" afterPath="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,63 +61,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__init__.py">
+      <file leaf-file-name="ComplexEtcEntryForm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kcht_complex_etc/ui/ComplexEtcEntryForm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LaneIODevice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneIODevice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="e#17#54#1" expanded="false" />
-                <element signature="e#517#747#1" expanded="false" />
-                <element signature="e#805#929#0" expanded="false" />
-                <element signature="e#1103#1570#0" expanded="false" />
-                <element signature="e#1676#2114#0" expanded="false" />
-                <element signature="e#1759#2114#0" expanded="false" />
-                <element signature="e#1819#2053#0" expanded="false" />
-                <element signature="e#2174#2617#0" expanded="false" />
-                <element signature="e#2311#2617#0" expanded="false" />
-                <element signature="e#2332#2524#0" expanded="false" />
-                <element signature="e#2678#3122#0" expanded="false" />
-                <element signature="e#2815#3122#0" expanded="false" />
-                <element signature="e#2836#3028#0" expanded="false" />
-                <element signature="e#3160#3446#0" expanded="false" />
-                <element signature="e#3212#3446#0" expanded="false" />
-                <element signature="e#3483#3767#0" expanded="false" />
-                <element signature="e#3804#4087#0" expanded="false" />
-                <element signature="e#4124#4407#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfrastructureConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/InfrastructureConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-              <folding>
-                <element signature="n#infras#0;n#infrasGroup#0;n#parkingInfrasGroups#0;n#!!top" expanded="false" />
-                <element signature="n#infras#1;n#infrasGroup#0;n#parkingInfrasGroups#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LaneLedIntegratedDevice.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneLedIntegratedDevice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="25">
+              <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -121,8 +97,11 @@
         <option value="$PROJECT_DIR$/kcht_complex_etc/biz/old-ComplexEtcEntryBiz.py" />
         <option value="$PROJECT_DIR$/shhicparking/infrastructure/__init__.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneIODevice.py" />
         <option value="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneLedIntegratedDevice.py" />
+        <option value="$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneIODevice.py" />
+        <option value="$PROJECT_DIR$/kcht_complex_etc/__init__.py" />
+        <option value="$PROJECT_DIR$/kcht_complex_etc/infras/__init__.py" />
+        <option value="$PROJECT_DIR$/driver/rsuTradeDataStructs.h" />
       </list>
     </option>
   </component>
@@ -135,7 +114,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1604" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectView">
@@ -153,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -163,20 +141,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.12 (C:\Python27\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParkTerminalUnitDevelopManage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ParkTerminalUnitDevelopManage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -191,7 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shhicparking" />
+              <option name="myItemId" value="kcht_complex_etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,33 +169,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shhicparking" />
+              <option name="myItemId" value="kcht_complex_etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infrastructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParkTerminalUnitDevelopManage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParkTerminalUnitDevelopManage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shhicparking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infrastructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugin_mock_complex_etc_adapter" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,34 +187,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shhicparking" />
+              <option name="myItemId" value="kcht_complex_etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infrastructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_plugin_tjairport_adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParkTerminalUnitDevelopManage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ParkTerminalUnitDevelopManage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="driver" />
+              <option name="myItemId" value="infras" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,14 +205,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="SearchEverywhereHistoryKey" value="mock complex etc infrastructure adapter&#9;null&#9;null&#10;LED&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="FrontendEtc&#9;null&#9;null&#10;复杂ETC车道基础设施&#9;null&#9;null&#10;mock complex etc infrastructure adapter&#9;null&#9;null&#10;LED&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\liuyinlong\Work\Python\ParkTerminalUnitDevelopManage\driver" />
       <recent name="D:\liuyinlong\Work\Python\ParkTerminalUnitDevelopManage\shhicparking\infrastructure\_plugin_tjairport_adapter" />
       <recent name="D:\ParkTerminalUnitDevelopManage\driver" />
       <recent name="X:\Work\Python\ParkTerminalUnitDevelopManage\driver" />
-      <recent name="D:\liuyinlong\Work\Python\ParkTerminalUnitDevelopManage\driver" />
     </key>
   </component>
   <component name="RunManager" selected="Python.LaneLedIntegratedDevice">
@@ -585,6 +510,14 @@
       <option name="presentableId" value="Default" />
       <updated>1480037161008</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complete LaneLedIntegratedDevice&#10;实现光电比特费显接口(20161205)">
+      <created>1480929951687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480929951687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -602,15 +535,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1604" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27202073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14524421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.4974293" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.4974293" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -630,6 +563,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete LaneLedIntegratedDevice&#10;实现光电比特费显接口(20161205)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete LaneLedIntegratedDevice&#10;实现光电比特费显接口(20161205)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,35 +594,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/plugin_mock_complex_etc_adapter/CETC_Mocks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2650">
-          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/AbstractInfrastructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4350">
-          <caret line="198" column="3" lean-forward="true" selection-start-line="198" selection-start-column="3" selection-end-line="198" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/OptionalInfrastructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/plugin_mock_complex_etc_adapter/InfrastructureConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -697,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,19 +619,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -796,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kcht_complex_etc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/plugin_mock_complex_etc_adapter/CETC_RSU_Mock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -821,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="146" column="8" lean-forward="false" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kcht_complex_etc/infras/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -899,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-650">
           <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,17 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/InfrastructureConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-          <folding>
-            <element signature="n#infras#0;n#infrasGroup#0;n#parkingInfrasGroups#0;n#!!top" expanded="false" />
-            <element signature="n#infras#1;n#infrasGroup#0;n#parkingInfrasGroups#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/TjdCamera.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
@@ -951,59 +823,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/JuliLaneRsuIntegratedIntf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
+        <state relative-caret-position="412">
           <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
+    <entry file="file://$PROJECT_DIR$/kcht_complex_etc/ui/ComplexEtcExitForm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="4" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kcht_complex_etc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/InfrastructureConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver/rsuTradeDataStructs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3599">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kcht_complex_etc/infras/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneIODevice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#17#54#1" expanded="false" />
-            <element signature="e#517#747#1" expanded="false" />
-            <element signature="e#805#929#0" expanded="false" />
-            <element signature="e#1103#1570#0" expanded="false" />
-            <element signature="e#1676#2114#0" expanded="false" />
-            <element signature="e#1759#2114#0" expanded="false" />
-            <element signature="e#1819#2053#0" expanded="false" />
-            <element signature="e#2174#2617#0" expanded="false" />
-            <element signature="e#2311#2617#0" expanded="false" />
-            <element signature="e#2332#2524#0" expanded="false" />
-            <element signature="e#2678#3122#0" expanded="false" />
-            <element signature="e#2815#3122#0" expanded="false" />
-            <element signature="e#2836#3028#0" expanded="false" />
-            <element signature="e#3160#3446#0" expanded="false" />
-            <element signature="e#3212#3446#0" expanded="false" />
-            <element signature="e#3483#3767#0" expanded="false" />
-            <element signature="e#3804#4087#0" expanded="false" />
-            <element signature="e#4124#4407#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-75">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shhicparking/infrastructure/_plugin_tjairport_adapter/LaneLedIntegratedDevice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2625">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kcht_complex_etc/ui/ComplexEtcEntryForm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding />
         </state>
       </provider>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" ?>
 <parkingInfrasGroups version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="meta-data/InfrastructureConfig.xsd">
 
-	<infrasGroup id="测试出口" passStrategy="forceWhiteList" pathType="complex_etc_exit" relatedEntryIds="" uiType="common">
-		<infras id="出口虚拟RSU" infrasType="虚拟RSU" use="true">
+	<infrasGroup id="测试入口" passStrategy="forceWhiteList" pathType="complex_etc_entry" relatedEntryIds="" uiType="common">
+		<infras id="入口虚拟RSU" infrasType="虚拟RSU" use="true">
 			<property name="广场号">5555</property>
 			<property name="站编号">4444</property>
 			<property name="路公司编号">22</property>
@@ -10,7 +10,7 @@
 			<property name="车道编号">1</property>
 			<property name="路网编号">1122</property>
 		</infras>
-		<infras id="出口虚拟ICC" infrasType="虚拟ICC" use="true">
+		<infras id="入口虚拟ICC" infrasType="虚拟ICC" use="true">
 			<property name="广场号">34</property>
 			<property name="站编号">44</property>
 			<property name="路公司编号">2233</property>
@@ -25,7 +25,7 @@
 			<property name="端口号"/>
 			<property name="设备IP"/>
 		</infras>
-		<infras id="出口IO" infrasType="车道IO设备" use="true">
+		<infras id="入口IO" infrasType="车道IO设备" use="true">
 			<property name="道闸抬起控制端子">3</property>
 			<property name="触发线圈输入端子">5</property>
 			<property name="道闸落下控制端子">4</property>
@@ -33,7 +33,7 @@
 			<property name="存在线圈输入端子">6</property>
 			<property name="停止线圈输入端子">7</property>
 		</infras>
-		<infras id="出口LED一体机" infrasType="车道LED显示屏一体机" use="true">
+		<infras id="入口LED一体机" infrasType="车道LED显示屏一体机" use="true">
 			<property name="设备串口号">com2</property>
 			<property name="空闲消息">欢迎光临\n天津滨海国际机场</property>
 		</infras>
@@ -64,7 +64,7 @@
 			<property name="路网编号"/>
 			<property name="设备串口号"/>
 		</infras>
-		<infras id="出口虚拟摄像头" infrasType="虚拟摄像头" use="true">
+		<infras id="入口虚拟摄像头" infrasType="虚拟摄像头" use="true">
 			<property name="noParam"/>
 		</infras>
 	</infrasGroup>
