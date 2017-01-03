@@ -26,7 +26,7 @@ class LaneLedIntegratedDevice(AbstractInfrastructure, CETC_Alarm, LED):
     def showOnLed(self, message):
         '''LED上显示消息'''
         # 整屏要显示的汉字或字符ASII码,字节数小于255内不限, 但超过显示屏显示长度部分将不显示
-        message = message.replace("\\n","\n")
+        message = message.replace("\\n", "\n")
         frame = [0x0a, 0x43]
         for x in ('' + message).split('\n'):
             if 0 and x.encode('gb2312').__len__() > 16:
@@ -50,7 +50,6 @@ class LaneLedIntegratedDevice(AbstractInfrastructure, CETC_Alarm, LED):
         signal_frame = [0x0A, 0x51, 0x01, 0x01, 0x0D]
         self.com.write(alarm_frame)
         self.com.write(signal_frame)
-        time.sleep(0.1)
 
     def closeAlarm(self, alarmNo=1):
         "关闭报警器,同步控制通行车道信号灯"  # 入参可选，是报警器号
@@ -58,10 +57,9 @@ class LaneLedIntegratedDevice(AbstractInfrastructure, CETC_Alarm, LED):
         signal_frame = [0x0A, 0x51, 0x01, 0x00, 0x0D]
         self.com.write(alarm_frame)
         self.com.write(signal_frame)
-        time.sleep(0.1)
 
 
-#"""
+# """
 if __name__ == '__main__':
     dv = LaneLedIntegratedDevice("aa",
                                  {u"设备串口号": "com2",
@@ -73,4 +71,4 @@ if __name__ == '__main__':
     dv.openAlarm(1)
     time.sleep(0.5)
     dv.closeAlarm(1)
-#"""
+# """

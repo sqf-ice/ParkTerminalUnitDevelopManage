@@ -113,6 +113,14 @@ class CETC_CanopyLights:
         raise Exception("No implement for CETC_CanopyLights")
 
 
+class CTEC_DataHelper:
+    """ETC停车场RSU服务"""
 
+    def notifyEntry(self, vehicleInfo=None, entryTradeResult=None):
+        "入场上报服务"
+        raise Exception("No implement for CTEC_DataHelper")
 
+    def notifyExit(self, vehicleInfo=None, dueToll=None, exitTradeResult=None):
+        "出场上报服务"
+        raise Exception("No implement for CTEC_DataHelper")
 

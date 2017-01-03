@@ -4,12 +4,14 @@ Created on 2016-9-27
 
 @author: user
 '''
+import serial
 
 from kcht_complex_etc.infras import *
 from shhicparking.infrastructure.AbstractInfrastructures import *
 import time
 from threading import Thread, RLock
 from PyQt4 import QtCore, QtGui, uic
+
 
 
 class CETC_GroundCoils_Mock(AbstractInfrastructure, CETC_GroundCoils):
